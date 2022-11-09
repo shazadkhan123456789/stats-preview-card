@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&display=swap');
+body{
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-top: 3%;
+    margin-right: 13%;
+    margin-left: 13%;
+    margin-bottom: 5%;
+    background-color: black;
+}
+
+.container{
+    align-items: center;
+
+    border-radius: 2%;
+    border: 1px solid black;
+    width: auto;
+    background-color: hsl(233, 47%, 7%);
+}
+.card{
+    display: flex;
+    border-radius: 5%;
+    margin-left: 10.7%;
+    margin-right: 10.7%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+}
+.content{
+    display: relative;
+    border-bottom-left-radius: 3%;
+    border-top-left-radius: 3%;
+    background-color: hsl(244, 38%, 16%);
+    color: white;
+    
+    
+}
+.heading{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+.heading>h1{
+    color: white;
+
+}.heading>h1>span{
+    color: hsl(277, 83%, 49%);
+}
+.discription{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    letter-spacing: 1px;
+
+}
+.reviews{
+    padding: 10%;
+    display: flex;
+}
+.views{ 
+    padding-right: 15% ;
+}
+.num{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.catogeries{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.image{
+    background-image: url("/images/image-header-desktop.jpg");
+    box-shadow: inset 0 0 999px hsl(277deg 100% 21%);
+    border-bottom-right-radius: 3%;
+    border-top-right-radius: 3%;
+    height: 450px;
+    width: 60rem;
+    
+}
+.attribution{
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    color: white;
+    padding-bottom: 10%;
+}
